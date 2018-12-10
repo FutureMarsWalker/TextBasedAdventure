@@ -5,25 +5,6 @@ import random
 playerItems = []
 enteredRooms = []
 
-def cellB():
-    global enteredRooms
-    print('You entered Room 2')
-    if 'room2' in enteredRooms:
-        print('This room looks vaguely familiar')
-    if 'room2' not in enteredRooms:
-        enteredRooms += ['room2']
-
-def hallwayA():
-    
-        
-def cellC():
-    global enteredRooms
-    print('You entered Room 3')
-    if 'room3' in enteredRooms:
-        print('This room looks vaguely familiar')
-    if 'room3' not in enteredRooms:
-            enteredRooms += ['room3']    
-
 def yourCell():
     global playerItems
     global enteredRooms
@@ -60,6 +41,27 @@ def yourCell():
         room2()
     else:
         room3()
+
+def cellB():
+    global enteredRooms
+    print('You entered Room 2')
+    if 'room2' in enteredRooms:
+        print('This room looks vaguely familiar')
+    if 'room2' not in enteredRooms:
+        enteredRooms += ['room2']
+
+def hallwayA():
+    
+        
+def cellC():
+    global enteredRooms
+    print('You entered Room 3')
+    if 'room3' in enteredRooms:
+        print('This room looks vaguely familiar')
+    if 'room3' not in enteredRooms:
+            enteredRooms += ['room3']    
+
+
         
         
 def cellD():
